@@ -2,7 +2,7 @@ import OpenAI from "openai";
 
 function askQuestion()
 {
-    const openai = new DeepAI({
+    const openai = new OpenAI({
         apiKey: "TEST_1",
       });
       inputInformation = document.getElementById("questionInput").value
